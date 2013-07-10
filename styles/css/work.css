@@ -1,0 +1,103 @@
+
+
+
+
+/*  ------ GESCHIEDENIS  ------  */ 
+div#container div#main_content.superchic{
+	background-color: #2f2e2c;
+}
+div#container div#main_content.superchic #content{
+	margin: 12px;
+}
+div#container div#main_content.superchic #content #left{
+	float: left;
+	color: #ffffff;
+	width: 480px;
+	margin-bottom: 20px;
+}
+div#container div#main_content.superchic #content #right{
+	float: right;
+}
+div#container div#main_content.superchic #content #right img{
+	margin-bottom: 12px;
+}
+div#container div#main_content.superchic.geschiedenis #content #left h2{
+	color: #ff1922;
+}
+
+div#container div#main_content.superchic.geschiedenis #content #left div.h_fact{
+    float: left;
+    margin-bottom: 10px;
+}
+div#container div#main_content.superchic.geschiedenis #content #left div.h_fact span{
+    color: #ff1922;
+    float: left;
+    width: 50px;
+}
+div#container div#main_content.superchic.geschiedenis #content #left div.h_fact p{
+    float: left;
+    width: 420px;
+    margin: 0;
+}
+
+
+
+div#container div#main_content.superchic.atelier #content #left h2{
+	color: #00a2ff;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+header div#main_nav ul li a:link, header div#main_nav ul li a:visited, header div#main_nav ul li a:active{
+	display: inline;
+	list-style-type: none;
+}
+*/
+#main_content.contact strong{
+    font-family: helveticaBold;
+    letter-spacing: -0.08em;
+}
+
+#main_content.contact table td.tbl_1{
+    width: 60px;
+    text-align: left;letter-spacing
+}
+#main_content.contact table td.tbl_2{
+    width: 90px;
+    text-align: left;
+}
+#main_content.contact table td.tbl_3{
+    width: 90px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+*/
