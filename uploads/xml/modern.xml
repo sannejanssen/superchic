@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <category>
 	<name>modern</name>
-	<project>
+    <project>
         <name_fr>FR:Eco-wood</name_fr>
         <name_nl>Eco-wood</name_nl>
         <image>
-            <src>eco-wood/18.jpg</src>
+            <src>eco_wood/18.jpg</src>
         </image>
         <image>
-            <src>eco-wood/19.jpg</src>
+            <src>eco_wood/19.jpg</src>
         </image>
         <image>
-            <src>eco-wood/21.jpg</src>
+            <src>eco_wood/21.jpg</src>
         </image>
         <image>
-            <src>eco-wood/24.jpg</src>
+            <src>eco_wood/24.jpg</src>
         </image>
     </project>
-    <project>
+	<project>
         <name_fr>FR:Forma</name_fr>
         <name_nl>Forma</name_nl>
         <image>
