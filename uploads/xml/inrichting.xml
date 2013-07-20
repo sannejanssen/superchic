@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category>
+	<name>inrichting</name>
+	<project>
+		<name_fr>FR:badkamer</name_fr>
+		<name_nl>badkamer</name_nl>
+		<image>
+			<src>badkamer/_C0O2514.jpg</src>
+		</image>
+		<image>
+			<src>badkamer/_C0O2517.jpg</src>
+		</image>
+		<image>
+			<src>badkamer/_C0O2520.jpg</src>
+		</image>
+	</project>
+	<project>
+		<name_fr>FR:inbouw</name_fr>
+		<name_nl>inbouw</name_nl>
+		<image>
+			<src>inbouw/_C0O2523.jpg</src>
+		</image>
+	</project>
+	
+</category>
+
+
+

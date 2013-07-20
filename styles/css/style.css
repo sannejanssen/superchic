@@ -1,0 +1,415 @@
+/*  FONTS  */
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../fonts/helvetica_bold-webfont.eot');
+    src: url('../fonts/helvetica_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica_bold-webfont.woff') format('woff'),
+         url('../fonts/helvetica_bold-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica_bold-webfont.svg#HelveticaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('../fonts/helvetica-webfont.eot');
+    src: url('../fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica-webfont.woff') format('woff'),
+         url('../fonts/helvetica-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica-webfont.svg#HelveticaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  ------ END FONTS ------  */
+
+.helvetica{
+	font-family: HelveticaRegular, Verdana, sans-serif;
+	font-weight: normal;
+}
+body{
+	font-size: 13px;
+}
+#balk{
+	background-color: #0e0d0c;
+	height: 96px;
+	width: 100%;
+}
+header{
+	width: 962px;
+	height: 96px;
+	position: absolute;
+	top: 0;
+	margin-left: 50%;
+	left: -481px;
+}
+header div#logo{
+	width: 190px;
+	height: 96px;
+	margin-right: 25px;
+	float: left;
+}
+header div#logo a img{
+	margin-left: -10px;
+}
+#container{
+	width: 962px;
+	position: absolute;
+	margin-left: 50%;
+	left: -481px;
+}
+.clear{
+	clear: both;
+}
+/*  GENERAL SETTINGS  */
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a:link, a:active, a:visited{
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	float: left;
+}
+.blue{
+	color: #ffffff;
+	
+}
+
+/*  MAIN NAVIGATION  */
+header div#main_nav{
+	width: 622px;
+	height: 96px;
+	margin-right: 25px;
+	float: left;
+	margin-top: 30px;
+}
+header div#main_nav ul li a:link, header div#main_nav ul li a:active, header div#main_nav ul li a:visited{
+	color: #ffffff;
+	margin-left: 1px;
+}
+header div#main_nav ul li a:hover, header div#main_nav ul li a.active{
+	color: #0e0d0c;
+	background-color: #ffffff;
+}
+/*  ------ END MAIN NAVIGATION ------  */
+
+/*  LANGUAGE  */
+header div#language{
+	width: 100px;
+	height: 96px;
+	float: right;
+	/* HIDE NAVIGATION */
+	/* visibility: hidden; */
+}
+header div#language ul{
+	margin-top: 37px;
+	text-align: right;
+	font-size: 11px;
+}
+header div#language ul li a:link, header div#language ul li a:active, header div#language ul li a:visited{
+	width: 20px;
+	color: #ffffff;
+	float: right;
+	padding: 3px 4px;
+}
+header div#language ul li span{
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+	float: right;
+	padding: 3px 0px;
+}
+header div#language ul li a:hover, header div#language ul li a.active{
+	font-weight: bold;
+}
+/*  ------ END LANGUAGE ------  */
+
+/*  SECONDARY NAVIGATION  */
+div#secondary_nav{
+	width: 962px;
+	float: left;
+	margin-top: 14px;
+	margin-bottom: 2px;
+}
+div#secondary_nav ul li a:link, div#secondary_nav ul li a:active, div#secondary_nav ul li a:visited{
+	color: #000000;
+	background-color: #ffffff;
+}
+div#secondary_nav.contact ul li a:link, div#secondary_nav.contact ul li a:active, div#secondary_nav.contact ul li a:visited{
+	color: #ffffff;
+	background-color: #2f2e2c;
+}
+div#secondary_nav ul li a.modern:hover, div#secondary_nav ul li a.modern.active,
+div#secondary_nav ul li a.atelier:hover, div#secondary_nav ul li a.atelier.active{
+	color: #ffffff;
+	background-color: #00a2ff;
+}
+div#secondary_nav ul li a.design:hover, div#secondary_nav ul li a.design.active,
+div#secondary_nav ul li a.deerlijk:hover, div#secondary_nav ul li a.deerlijk.active {
+	color: #ffffff;
+	background-color: #7bcb34;
+}
+div#secondary_nav ul li a.landelijk:hover, div#secondary_nav ul li a.landelijk.active,
+div#secondary_nav ul li a.gent:hover, div#secondary_nav ul li a.gent.active{
+	color: #ffffff;
+	background-color: #ff9200;
+}
+div#secondary_nav ul li a.inrichting:hover, div#secondary_nav ul li a.inrichting.active,
+div#secondary_nav ul li a.geschiedenis:hover, div#secondary_nav ul li a.geschiedenis.active{
+	color: #ffffff;
+	background-color: #ff1922;
+}
+/*  ------ END SECONDARY NAVIGATION ------  */
+
+div#container div#main_content{
+	background-color: #ffffff;
+	float: left;
+	width: 962px;
+}
+
+/*  ------ CONTACT FORM  ------  */ 
+div#container div#main_content.contact{
+	background-color: #2f2e2c;
+}
+div#container div#main_content.contact #content{
+	margin: 12px;
+}
+div#container div#main_content.contact #content #details{
+	color: #ffffff;
+}
+div#container div#main_content.contact #content #details p{
+	line-height: 1.3em;
+}
+div#container div#main_content.contact #content.deerlijk #details p span{
+	color: #7bcb34;
+}
+div#container div#main_content.contact #content.gent #details p span{
+	color: #ff9200;
+}
+div#container div#main_content.contact #content #details div#form_button{
+	padding: 10px;
+	padding-right: 60px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+div#container div#main_content.contact #content #details a#location{
+    padding: 10px;
+    padding-right: 60px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-image: url('./img/send_arrow.png');
+    margin-left: 10px;
+    color: #ffffff;
+}
+div#container div#main_content.contact #content #details div#form_button.open{
+	background-image: url('./img/send_arrow_down.png');
+}
+div#container div#main_content.contact #content #details div#form_button.closed{
+	background-image: url('./img/send_arrow.png');
+}
+div#container div#main_content.contact #content.deerlijk #details div#form_button{
+	background-color: #7bcb34;
+}
+div#container div#main_content.contact #content.gent #details div#form_button{
+	background-color: #ff9200;
+}
+div#container div#main_content.contact #content.deerlijk #details a#location{
+    background-color: #ff9200;
+}
+div#container div#main_content.contact #content.gent #details a#location{
+    background-color: #7bcb34;
+}
+
+div#container div#main_content.contact #content #details div#verzonden{
+	padding: 10px;
+	float: left;
+	width: 918px;
+}
+div#container div#main_content.contact #content.deerlijk #details div#verzonden{
+	background-color: #7bcb34;
+}
+div#container div#main_content.contact #content.gent #details div#verzonden{
+	background-color: #ff9200;
+}
+
+/* ------  FORM  ------ */
+div#contact_form{
+	width: 962px;
+}
+div#container div#contact_form.deerlijk{
+	background-color: #7bcb34;
+}
+div#container div#contact_form.gent{
+	background-color: #ff9200;
+}
+#contact_form div.section{
+	float: left;
+	margin-bottom: 12px;
+}
+#contact_form div.section.one{
+	width: 264px;
+	margin-right: 33px;
+	margin-left: 18px;
+}
+#contact_form div.section.two{
+	width: 629px;
+}
+#contact_form div.section.three{
+	margin-left: 315px;
+}
+#contact_form div.form-block{
+	float: left;
+	width: 100%;
+}
+#contact_form div.form-block p{
+	margin-bottom: 3px;
+	float: left;
+	width: 100%;
+  color: #333333;
+}
+#contact_form div.section.one div.form-block input,
+#contact_form div.section.two div.form-block input{
+	background-color: #ffffff;
+	float: left;
+	width: 100%;
+	border: none;
+	height: 25px;
+}
+#contact_form form .form-textarea{
+	resize: none;
+	float: left;
+	display: block;
+	border: none;
+	width: 100%;
+	height: 145px;
+}
+#contact_form div.section.three div.form-block{
+	width: 629px;
+}
+#contact_form div.section.three p{
+	width: 400px;
+	margin: 0;
+	font-weight: normal;
+	background-image: url('./img/opgelet.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 2px 0px 0px 28px;
+	height: 19px;
+	visibility: hidden;
+	margin-top: 9px;
+}
+#contact_form div.section.three input{
+	float: right;
+	padding: 10px 60px 10px 15px;
+	background-color: #222222;
+	border: none;
+	color: #ffffff;
+	padding-right: 60px;
+	background-image: url('./img/send_arrow.png');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+/*  ------ NIEUWS  ------  */
+div#container div#main_content.superchic.nieuws #content #left h2{
+  color: #FF9200;
+}
+div#container div#secondary_nav.nieuws li a{
+    background-color: #FF9200;
+    color: #ffffff;
+}
+
+/*  ------ SERVICE  ------  */
+div#container div#main_content.superchic.service h2 {
+  color: #7bcb34;
+}
+div#container div#main_content.superchic.service,
+div#container div#main_content.superchic.service p {
+  color: #ffffff;
+}
+div#container div#main_content.superchic.service.confirm {
+  height: 400px;
+}
+.service div#contact_form {
+  width: 938px;
+}
+.service #contact_form div.section.two {
+  width: 640px;
+}
+.service #contact_form div.section.three {
+  width: 100%;
+  margin-left: 0px;
+}
+.service #contact_form div.section.three div.form-block {
+  /* width: 642px; */
+  width: 100%;
+}
+
+.service #contact_form div.section.four {
+  width: 640px;
+  background-color: yellow;
+}
+.service .intro {
+  padding-right: 200px;
+}
+.service #contact_form div.section.one {
+  margin-left: 0;
+}
+.service #contact_form div.form-block.postal {
+  width: 150px;
+  margin-right: 33px;
+}
+.service #contact_form div.form-block.city {
+  width: 457px;
+}
+.service #contact_form .checkbox {
+  margin-top: 10px;
+}
+.service #contact_form .checkbox div.form-block p {
+  float: right;
+  width: 890px;
+}
+.service #contact_form .checkbox div.form-block input {
+  float: left;
+  width: 40px;
+  font-size: 16px;
+  margin-top: 13px;
+}
+.service #contact_form .extra {
+  display: none;
+  width: 100%;
+  width: 938px;
+}
+.service .section.right {
+  width: 640px;
+}
+.service .section.one select {
+  width: 100%;
+}
+div#container div#main_content.superchic.service p#error_message {
+  background-color: #7bcb34;
+  margin-top: 0;
+  padding: 8px 40px;
+  background-position: 8px 8px;
+  width: 695px;
+}
+div#container div#main_content.superchic.service input.form-submit {
+  background-color: #7bcb34;
+  /*
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-position: 5px 4px;
+  width: 765px;
+  */
+}
+.magic {
+  display: none;
+}
