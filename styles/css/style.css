@@ -27,6 +27,7 @@
 }
 body{
 	font-size: 13px;
+	margin-top: -16px;
 }
 #balk{
 	background-color: #0e0d0c;
@@ -370,6 +371,11 @@ div#container div#main_content.superchic.service.confirm {
   width: 457px;
 }
 .service #contact_form .checkbox {
+  margin-top: 0px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+.service #contact_form .checkbox.checkbox1 {
   margin-top: 10px;
 }
 .service #contact_form .checkbox div.form-block p {

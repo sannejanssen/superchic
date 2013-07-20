@@ -100,6 +100,10 @@ function controle_service(form)
   $('#naam').css("background-color", white);
   $('#naam').css("color", correct);
 
+  /* Checkbox */
+  $('.checkbox').css("background-color", 'transparent');
+  $('.checkbox').css("color", correct);
+
   /* Keukenmeubel */
   $('#keukenmeubel').css("background-color", white);
   $('#keukenmeubel').css("color", correct);
@@ -115,6 +119,16 @@ function controle_service(form)
   /* Merk */
   $('#merk').css("background-color", white);
   $('#merk').css("color", correct);
+
+  /* Checken of 1 van de 2 vragen is aangevinkt */
+  var checkbox1 = $('#keukenmeubel-probleem-check').prop('checked');
+  var checkbox2 = $('#toestel-probleem-check').prop('checked');
+
+  if(!checkbox1 && !checkbox2) {
+    $('#error_message').css("visibility", "visible");
+    $('.checkbox').css("background-color", error);
+    allesOk = false;
+  }
 
   /* Probleem met het meubel aangevinkt */
   if($('#keukenmeubel-probleem-check').prop('checked')) {

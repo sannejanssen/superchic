@@ -48,7 +48,7 @@ $function = "service/service_submit";
           <?php echo form_input('woonplaats', set_value('woonplaats'), "class='form-input helvetica' id='woonplaats'")?>
         </div>
       </div>
-      <div class="section checkbox">
+      <div class="section checkbox checkbox1">
         <div class="form-block">
           <p class="form-label"><?php echo $this->lang->line('service.probleem');?></p>
           <?php 
