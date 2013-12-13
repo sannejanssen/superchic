@@ -349,3 +349,34 @@ DEBUG - 2013-12-13 18:04:04 --> File loaded: application/views/_includes/footer.
 DEBUG - 2013-12-13 18:04:04 --> File loaded: application/views/_includes/template.php
 DEBUG - 2013-12-13 18:04:04 --> Final output sent to browser
 DEBUG - 2013-12-13 18:04:04 --> Total execution time: 0.4543
+DEBUG - 2013-12-13 18:19:14 --> Config Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Hooks Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Utf8 Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> UTF-8 Support Enabled
+DEBUG - 2013-12-13 18:19:14 --> URI Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Router Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Output Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Security Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Input Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-13 18:19:14 --> Language Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Loader Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Helper loaded: url_helper
+DEBUG - 2013-12-13 18:19:14 --> Helper loaded: form_helper
+DEBUG - 2013-12-13 18:19:14 --> Session Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Helper loaded: string_helper
+DEBUG - 2013-12-13 18:19:14 --> Session routines successfully run
+DEBUG - 2013-12-13 18:19:14 --> Email Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Model Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Model Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Model Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Model Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Controller Class Initialized
+DEBUG - 2013-12-13 18:19:14 --> Language file loaded: language/dutch/superchic_nl_lang.php
+DEBUG - 2013-12-13 18:19:14 --> File loaded: application/views/_includes/header.php
+DEBUG - 2013-12-13 18:19:14 --> File loaded: application/views/nieuws/nav.php
+DEBUG - 2013-12-13 18:19:14 --> File loaded: application/views/nieuws/nieuwspagina.php
+DEBUG - 2013-12-13 18:19:14 --> File loaded: application/views/_includes/footer.php
+DEBUG - 2013-12-13 18:19:14 --> File loaded: application/views/_includes/template.php
+DEBUG - 2013-12-13 18:19:14 --> Final output sent to browser
+DEBUG - 2013-12-13 18:19:14 --> Total execution time: 0.0746
