@@ -19,10 +19,9 @@
 // $config['base_url']	= 'http://test.sannejanssen.be/sanne/';
 // $config['base_url']	= 'http://test.sannejanssen.be/jesse/';
 // $config['base_url']	= 'http://192.168.1.4/SUPERCHIC/';
-$config['base_url']	= 'http://superchic.local/';
-
+$config['base_url']	= 'http://www.superchic.be/';
 // $config['base_url']	= 'http://clients.squair-media.be/superchic/';
-$config['base_url']	= 'http://localhost/0012_SUPERCHIC/06_WEBSITE/01_FILES/';
+// $config['base_url']	= 'http://localhost/0012_SUPERCHIC/06_WEBSITE/01_FILES/SUPERCHIC';
 
 
 
@@ -191,7 +190,7 @@ $config['directory_trigger']	= 'd'; // experimental not currently in use
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 4;
+$config['log_threshold'] = 0;
 
 /*
 |--------------------------------------------------------------------------

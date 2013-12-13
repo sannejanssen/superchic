@@ -17,8 +17,6 @@ class Service extends CI_Controller{
     $captcha = $this->input->post('emailaddr');
     if($captcha == '') {
       $this->sendmail();
-      $this->session->unset_userdata('captcha');
-
       redirect('service/confirm');
     } else {
       redirect('service/confirm');
