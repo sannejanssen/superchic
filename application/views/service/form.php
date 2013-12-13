@@ -4,6 +4,7 @@
 $error_message = $this->lang->line('contact.error');
 
 $function = "service/service_submit";
+
 ?>
 <div id="main_content" class="superchic service helvetica">
   <div id="content">
@@ -12,9 +13,6 @@ $function = "service/service_submit";
       Service staat bij Keukens SuperChic reeds decennia lang hoog in het vaandel. Wij streven dan ook naar een optimale dienstverlening aan al onze klanten.
       Heeft u een vraag of opmerking over uw SuperChic keuken of over één van uw toestellen, vul dan het onderstaand formulier zo volledig mogelijk in zodat wij u de beste service kunnen verlenen.
     </p>
-    <div class="captcha_error">
-      <?php echo form_error('captcha'); ?>
-    </div>
     <div id="contact_form">
     <?php echo form_open($function); ?>
       <div class="section one">
@@ -31,13 +29,6 @@ $function = "service/service_submit";
           <p class="form-label"><?php echo $this->lang->line('service.aankoop');?></p>
           <?php echo form_input('aankoop', set_value('aankoop'), "class='form-input helvetica' id='aankoop'")?>
         </div>
-        <!--
-        <div class="form-block">
-          <p class="form-label"><?php echo $this->lang->line('service.captcha');?></p>
-          <?php // echo form_input('captcha', set_value('captcha'), "class='form-input helvetica captcha' id='captcha'")?>
-          <?php // print($captcha['image']); ?>
-        </div>
-        // -->        
       </div>
       <div class="section two">
         <div class="form-block">

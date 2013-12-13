@@ -4,25 +4,7 @@ class Service extends CI_Controller{
 
 	function index()
 	{
-    $this->load->helper('captcha');
-
-
-    $variables = array(
-      'word'            => '',
-      'img_path'        => './captcha/',
-      'img_url'         => base_url() . 'captcha/',
-      'font_path'       => './styles/fonts/helvetica-webfont.ttf',
-      'img_width'       => '150',
-      'img_height'      => '30',
-      'expiration'      => '300'
-    );
-
-    $captcha_image = create_captcha($variables);
-    
-    $data['captcha'] = $captcha_image;
-    $this->session->set_userdata('captcha', $captcha_image['word']);
-
-    $data['navigation'] = "service/nav";
+		$data['navigation'] = "service/nav";
 		$data['main_content'] = "service/form";
 
     $this->output->cache(10);
@@ -32,62 +14,14 @@ class Service extends CI_Controller{
 
   function service_submit()
   {
-
-    $this->load->library('form_validation');
-
-    $this->form_validation->set_rules('captcha', 'De captcha komt niet overeen. Probeert u nogmaals.', 'callback_validate_captcha');
-    $this->form_validation->set_rules('naam', 'Naam', 'required');
-    $this->form_validation->set_rules('telefoon', 'Telefoon', 'required');
-    $this->form_validation->set_rules('aankoop', 'Aankoop', 'required');
-    $this->form_validation->set_rules('email', 'Email', 'required');
-    $this->form_validation->set_rules('adres', 'Adres', 'required');
-    $this->form_validation->set_rules('postcode', 'Postcode', 'required');
-    $this->form_validation->set_rules('woonplaats', 'Woonplaats', 'required');
-
-    $this->form_validation->set_message('validate_captcha', 'De captcha komt niet overeen. Probeert u nogmaals.');
-
-
-    if ($this->form_validation->run() == FALSE)
-    {
-
-      $this->session->unset_userdata('captcha');
-      $this->load->helper('captcha');
-      $variables = array(
-        'word'            => '',
-        'img_path'        => './captcha/',
-        'img_url'         => base_url() . 'captcha/',
-        'font_path'       => './styles/fonts/helvetica-webfont.ttf',
-        'img_width'       => '150',
-        'img_height'      => '30',
-        'expiration'      => '300'
-      );
-
-      $captcha_image = create_captcha($variables);
-      
-      $data['captcha'] = $captcha_image;
-      $this->session->set_userdata('captcha', $captcha_image['word']);
-
-      $data['navigation'] = "service/nav";
-      $data['main_content'] = "service/form";
-
-      $this->output->cache(10);
-
-      $this->load->view('_includes/template', $data);
-    }
-    else
-    {
+    $captcha = $this->input->post('emailaddr');
+    if($captcha == '') {
       $this->sendmail();
       $this->session->unset_userdata('captcha');
-      redirect('service/confirm');
-    }
-  }
 
-  function validate_captcha($var) {
-    if (strtolower($this->session->userdata('captcha')) == strtolower($var)) {
-      return true;
-    }
-    else {
-      return false;
+      redirect('service/confirm');
+    } else {
+      redirect('service/confirm');
     }
   }
 

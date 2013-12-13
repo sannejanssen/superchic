@@ -72,10 +72,6 @@ function controle_service(form)
 
   $('#error_message').css("visibility", "hidden");
 
-  /* Captcha */
-  $('#captcha').css("background-color", white);
-  $('#captcha').css("color", correct);
-
   /* Woonplaats */
   $('#woonplaats').css("background-color", white);
   $('#woonplaats').css("color", correct);
@@ -171,15 +167,6 @@ function controle_service(form)
       $('#merk').css("color", white);
       allesOk = false;
     }
-  }
-
-  /* Controle catcha */
-  if(form.captcha.value == "")
-  {
-    $('#error_message').css("visibility", "visible");
-    $('#captcha').css("background-color", error);
-    $('#captcha').css("color", white);
-    allesOk = false;
   }
 
   /* Controle woonplaats */

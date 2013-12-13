@@ -22,7 +22,7 @@
 $config['base_url']	= 'http://superchic.local/';
 
 // $config['base_url']	= 'http://clients.squair-media.be/superchic/';
-// $config['base_url']	= 'http://localhost/0012_SUPERCHIC/06_WEBSITE/01_FILES/';
+$config['base_url']	= 'http://localhost/0012_SUPERCHIC/06_WEBSITE/01_FILES/';
 
 
 
