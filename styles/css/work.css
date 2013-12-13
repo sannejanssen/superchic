@@ -80,7 +80,11 @@ header div#main_nav ul li a:link, header div#main_nav ul li a:visited, header di
 }
 
 
-
+#contact_form div.section.one div.form-block input.captcha {
+    width: 109px;
+    margin-right: 5px;
+    height: 30px;
+}
 
 
 

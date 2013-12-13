@@ -42,6 +42,9 @@ else{
 		case "contact":
 	        $extra .= "Contact";
 	        break;
+      case "service":
+          $extra .= "Service";
+          break;
 		}
 	}
 	?>

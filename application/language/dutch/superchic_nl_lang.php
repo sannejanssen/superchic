@@ -51,6 +51,10 @@ $lang['service.probleem_label'] = "Probleem";
 $lang['service.toestel'] = "Toestel";
 $lang['service.merk'] = "Merk";
 
+$lang['service.captcha'] = "Captcha";
+
+
+
 
 
 
