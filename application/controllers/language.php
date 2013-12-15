@@ -9,7 +9,7 @@ class Language extends CI_Controller{
 	function fr()
 	{
 		$language_array = array('language' => "fr");
-		$this->session->set_userdata($language_array);
+		// $this->session->set_userdata($language_array);
 		
 		$this->lang->load('superchic_fr', 'french');
 		$redirect_url = '';
@@ -25,7 +25,7 @@ class Language extends CI_Controller{
 	function nl()
 	{
 		$language_array = array('language' => "nl");
-		$this->session->set_userdata($language_array);
+		// $this->session->set_userdata($language_array);
 		
 		$this->lang->load('superchic_nl', 'dutch');
 		$redirect_url = '';

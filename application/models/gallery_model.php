@@ -28,14 +28,7 @@ class Gallery_model extends CI_Model{
 			{
 			  $proj_counter++;
 			  
-			    $name_element = $project->getElementsByTagName( "name_nl" );
-				if( $this->session->userdata('language') ){
-					if( $this->session->userdata('language') == "fr" ){
-						// FRANS
-						$name_element = $project->getElementsByTagName( "name_fr" );
-					}
-				}
-				
+			  $name_element = $project->getElementsByTagName( "name_nl" );
 				$project_name = ucwords($name_element->item(0)->nodeValue);
 				
 				$image_elemens = $project->getElementsByTagName( "image" );
@@ -120,5 +113,3 @@ GALLERY
 	return $return;	
 	}
 }
-?>
-

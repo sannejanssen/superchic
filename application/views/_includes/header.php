@@ -1,19 +1,5 @@
 ﻿<?php 
-if( $this->session->userdata('language') ){
-	if( $this->session->userdata('language') == "fr" )
-	{
-		$this->lang->load('superchic_fr', 'french');
-	}
-	else
-	{
-		$this->lang->load('superchic_nl', 'dutch');
-	}
-}
-else{
-	$language_array = array('language' => "nl");
-	$this->session->set_userdata($language_array);
-	$this->lang->load('superchic_nl', 'dutch');
-}
+$this->lang->load('superchic_nl', 'dutch');
 ?>
 <!doctype html>
 <!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -89,21 +75,6 @@ else{
 					<a class="<?php if( $this->uri->segment(1) == "contact" )  echo "active" ?>" href="<?php echo base_url();?>index.php/contact" target="_self"><?php echo $this->lang->line('main_nav.contact');?></a>
 				</li>
 			</ul>
-		</div>
-		<div id="language" style="display: none;">
-			<ul class="helvetica">
-				<li>
-					<a href="<?php echo base_url();?>language/fr/<?php echo uri_string();?>" class="<?php if( $this->session->userdata('language') && $this->session->userdata('language') == "fr" ) echo 'active'?>" target="_self">FR</a>
-				</li>
-				<li>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="<?php echo base_url();?>language/nl/<?php echo uri_string();?>" class="<?php if( $this->session->userdata('language') && $this->session->userdata('language') == "nl" ) echo 'active'?>" target="_self">NL</a>
-				</li>
-			</ul>
-			
-			
 		</div>
 	</header>
 </div>
