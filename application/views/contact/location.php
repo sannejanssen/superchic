@@ -125,6 +125,9 @@ GENT
 				<td colspan="3"><strong>Openingsuren</strong></td>
 			</tr>
 			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
 				<td class="tbl_1">di - vr</td>
 				<td class="tbl_2">10.00 - 12.00</td>
 				<td class="tbl_3">13.30 - 18.30</td>
@@ -138,6 +141,29 @@ GENT
 				<td class="tbl_1">zo - ma</td>
 				<td colspan="2" class="tbl_2">gesloten</td>
 			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="3"><strong>Openingsuren tijdens het Kerstverlof</strong></td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="tbl_1">Gesloten</td>
+				<td colspan="2" class="tbl_2">maandag 23 december '13 tem woensdag 25 december '13</td>
+			</tr>
+			<tr>
+				<td class="tbl_1">&nbsp;</td>
+				<td colspan="2" class="tbl_2">maandag 30 december '13 tem woendag 01 januari '14</td>
+			</tr>
+			<tr>
+				<td class="tbl_1">Open</td>
+				<td colspan="2" class="tbl_2">
+					donderdag 26 december '13 tem zaterdag 29 december '13 enkel in de namiddag.<br />
+					donderdag 02 januari '14 tem zaterdag 04 januari '14 enkel in de namiddag.</td>
+			</tr>               
 		</table>
 		<br />
 		$submit_html
@@ -184,6 +210,9 @@ DEERLIJK
 				<td colspan="3"><strong>Openingsuren</strong></td>
 			</tr>
 			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
 				<td class="tbl_1">di - vr</td>
 				<td class="tbl_2">10.00 - 12.00</td>
 				<td class="tbl_3">13.30 - 18.30</td>
@@ -197,6 +226,31 @@ DEERLIJK
 				<td class="tbl_1">zo - ma</td>
 				<td colspan="2" class="tbl_2">gesloten</td>
 			</tr>
+
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+
+			<tr>
+				<td colspan="3"><strong>Openingsuren tijdens het Kerstverlof</strong></td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="tbl_1">Gesloten</td>
+				<td colspan="2" class="tbl_2">maandag 23 december '13 tem donderdag 02 januari '14</td>
+			</tr>
+
+			<tr>
+				<td class="tbl_1">Open</td>
+				<td colspan="2" class="tbl_2">vrijdag 3 en zaterdag 4 januari enkel in de namiddag.</td>
+			</tr>
+
+			
+
+			     
+                              
 		</table>
 		<br />
 		$submit_html

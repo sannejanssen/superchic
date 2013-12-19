@@ -67,16 +67,19 @@ header div#main_nav ul li a:link, header div#main_nav ul li a:visited, header di
 }
 
 #main_content.contact table td.tbl_1{
-    width: 60px;
-    text-align: left;letter-spacing
+    width: 80px;
+    text-align: left;
+    vertical-align: top;
 }
 #main_content.contact table td.tbl_2{
-    width: 90px;
+    width: 100px;
     text-align: left;
+    vertical-align: top;
 }
 #main_content.contact table td.tbl_3{
-    width: 90px;
+    width: 580px;
     text-align: left;
+    vertical-align: top;
 }
 
 

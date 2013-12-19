@@ -178,8 +178,13 @@ div#container div#main_content.contact{
 div#container div#main_content.contact #content{
 	margin: 12px;
 }
-div#container div#main_content.contact #content #details{
+div#container div#main_content.contact #content #details {
 	color: #ffffff;
+}
+div#container div#main_content.contact #content #details table {
+  color: #ffffff;
+  font-size: 13px;
+  width: 760px;
 }
 div#container div#main_content.contact #content #details p{
 	line-height: 1.3em;
