@@ -213,9 +213,14 @@ DEERLIJK
 				<td colspan="3">&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="tbl_1">di - vr</td>
+				<td class="tbl_1">di</td>
+				<td class="tbl_2"></td>
+				<td class="tbl_3">13.30 - 18.00</td>
+			</tr>
+			<tr>
+				<td class="tbl_1">woe - vr</td>
 				<td class="tbl_2">10.00 - 12.00</td>
-				<td class="tbl_3">13.30 - 18.30</td>
+				<td class="tbl_3">13.30 - 18.00</td>
 			</tr>
 			<tr>
 				<td class="tbl_1">za</td>
@@ -239,15 +244,10 @@ DEERLIJK
 			</tr>
 			<tr>
 				<td class="tbl_1">Gesloten</td>
-				<td colspan="2" class="tbl_2">maandag 23 december '13 tem donderdag 02 januari '14</td>
+				<td colspan="2" class="tbl_2">24 december in de namiddag / 25 december / 26 december<br>31 december / 01 januari / 02 januari</td>
 			</tr>
 
-			<tr>
-				<td class="tbl_1">Open</td>
-				<td colspan="2" class="tbl_2">vrijdag 3 en zaterdag 4 januari enkel in de namiddag.</td>
-			</tr>
-
-			
+				
 
 			     
                               

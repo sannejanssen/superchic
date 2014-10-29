@@ -27,7 +27,6 @@
 }
 body{
 	font-size: 13px;
-	margin-top: -16px;
 }
 #balk{
 	background-color: #0e0d0c;
@@ -149,7 +148,7 @@ div#secondary_nav ul li a.atelier:hover, div#secondary_nav ul li a.atelier.activ
 	background-color: #00a2ff;
 }
 div#secondary_nav ul li a.design:hover, div#secondary_nav ul li a.design.active,
-div#secondary_nav ul li a.deerlijk:hover, div#secondary_nav ul li a.deerlijk.active {
+div#secondary_nav ul li a.deerlijk:hover, div#secondary_nav ul li a.deerlijk.active{
 	color: #ffffff;
 	background-color: #7bcb34;
 }
@@ -178,13 +177,8 @@ div#container div#main_content.contact{
 div#container div#main_content.contact #content{
 	margin: 12px;
 }
-div#container div#main_content.contact #content #details {
+div#container div#main_content.contact #content #details{
 	color: #ffffff;
-}
-div#container div#main_content.contact #content #details table {
-  color: #ffffff;
-  font-size: 13px;
-  width: 760px;
 }
 div#container div#main_content.contact #content #details p{
 	line-height: 1.3em;
@@ -278,7 +272,8 @@ div#container div#contact_form.gent{
 	margin-bottom: 3px;
 	float: left;
 	width: 100%;
-  color: #333333;
+	font-weight: bold;
+	color: #333333;
 }
 #contact_form div.section.one div.form-block input,
 #contact_form div.section.two div.form-block input{
@@ -325,102 +320,10 @@ div#container div#contact_form.gent{
 
 /*  ------ NIEUWS  ------  */
 div#container div#main_content.superchic.nieuws #content #left h2{
-  color: #FF9200;
+    color: #FF9200;
 }
 div#container div#secondary_nav.nieuws li a{
     background-color: #FF9200;
     color: #ffffff;
 }
 
-/*  ------ SERVICE  ------  */
-div#container div#main_content.superchic.service h2 {
-  color: #7bcb34;
-}
-div#container div#main_content.superchic.service,
-div#container div#main_content.superchic.service p {
-  color: #ffffff;
-}
-div#container div#main_content.superchic.service.confirm {
-  height: 400px;
-}
-.service div#contact_form {
-  width: 938px;
-}
-.service #contact_form div.section.two {
-  width: 640px;
-}
-.service #contact_form div.section.three {
-  width: 100%;
-  margin-left: 0px;
-}
-.service #contact_form div.section.three div.form-block {
-  /* width: 642px; */
-  width: 100%;
-}
-
-.service #contact_form div.section.four {
-  width: 640px;
-  background-color: yellow;
-}
-.service .intro {
-  padding-right: 200px;
-}
-.service #contact_form div.section.one {
-  margin-left: 0;
-}
-.service #contact_form div.form-block.postal {
-  width: 150px;
-  margin-right: 33px;
-}
-.service #contact_form div.form-block.city {
-  width: 457px;
-}
-.service #contact_form .checkbox {
-  margin-top: 0px;
-  padding-bottom: 8px;
-  width: 100%;
-}
-.service #contact_form .checkbox.checkbox1 {
-  margin-top: 10px;
-}
-.service #contact_form .checkbox div.form-block p {
-  float: right;
-  width: 890px;
-}
-.service #contact_form .checkbox div.form-block input {
-  float: left;
-  width: 40px;
-  font-size: 16px;
-  margin-top: 13px;
-}
-.service #contact_form .extra {
-  display: none;
-  width: 100%;
-  width: 938px;
-}
-.service .section.right {
-  width: 640px;
-}
-.service .section.one select {
-  width: 100%;
-}
-div#container div#main_content.superchic.service p#error_message {
-  background-color: #7bcb34;
-  margin-top: 0;
-  padding: 8px 40px;
-  background-position: 8px 8px;
-  width: 695px;
-}
-div#container div#main_content.superchic.service input.form-submit {
-  background-color: #7bcb34;
-  /*
-  margin-top: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-position: 5px 4px;
-  width: 765px;
-  */
-}
-.magic {
-  display: none;
-}

@@ -1,7 +1,8 @@
-﻿<?php
+<?php
 class Contact extends CI_Controller{
-  private $email_address = "info@superchic.be";
-  
+	private $email_address = "info@superchic.be";
+	// private $email_address = "Jesse Vanden Broeck <jesse@squair-media.be>";
+	
 	function index()
 	{
 		redirect('contact/deerlijk');	
@@ -59,7 +60,6 @@ class Contact extends CI_Controller{
   		
 TEST
 ;
-
 $config = Array(
   'protocol' => 'smtp',
   'smtp_host' => 'mail.priorweb.be',
@@ -70,27 +70,21 @@ $config = Array(
   'wordwrap' => TRUE
 );
 
-/*
-$config = Array(
-  'protocol' => 'smtp',
-  'smtp_host' => 'ssl://smtp.googlemail.com',
-  'smtp_user' => 'mail.dummytester@gmail.com',
-  'smtp_pass' => 'dummytester44',
-  'smtp_port' => 465,
-  'charset' => 'utf-8',
-  'wordwrap' => TRUE
-);
-*/
-  
-    $this->email->initialize($config);
-    $this->email->set_newline("\r\n");
-    $from_name = $post_voornaam ." " .$post_naam;
-    $this->email->from($post_email, $from_name); // change it to yours
-    $this->email->to($this->email_address); // change it to yours
-    $this->email->subject("Contact SuperChic");
-    $this->email->message($email);
-    $this->email->send();	
-  }
+        $this->email->initialize($config);
+		
+		// $this->email->set_newline("\r\n");
+		$from_name = $post_voornaam ." " .$post_naam;
+  		$this->email->from($post_email, $from_name); // change it to yours
+ 		$this->email->to($this->email_address); // change it to yours
+  		$this->email->subject("Contact SuperChic");
+		$this->email->message($email);
+  		$this->email->send();	
+	  
+	}
+	
+	
+	
+	
+	
+	
 }
-
-

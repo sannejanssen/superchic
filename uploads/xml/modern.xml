@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <category>
 	<name>modern</name>
+        <project>
+        <name_fr>FR:BIS</name_fr>
+        <name_nl>BIS</name_nl>
+        <image>
+            <src>bis14/superchic_bis_01.jpg</src>
+        </image>
+         <image>
+            <src>bis14/superchic_bis_02.jpg</src>
+        </image>
+          <image>
+            <src>bis14/superchic_bis_03.jpg</src>
+        </image>
+          <image>
+            <src>bis14/superchic_bis_04.jpg</src>
+        </image>
+          <image>
+            <src>bis14/superchic_bis_05.jpg</src>
+        </image>
+          <image>
+            <src>bis14/superchic_bis_06.jpg</src>
+        </image>
+          <image>
+            <src>bis14/superchic_bis_07.jpg</src>
+        </image>
+          <image>
+            <src>bis14/superchic_bis_08.jpg</src>
+        </image>
+         <image>
+            <src>bis14/superchic_bis_09.jpg</src>
+        </image>
+    </project>
 	<project>
         <name_fr>FR:Eco-wood</name_fr>
         <name_nl>Eco-wood</name_nl>
